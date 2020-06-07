@@ -51,8 +51,7 @@ p{
 }
 
 .nav-item a:hover {
-    background: #2fb868;
-    border-radius: 5px;
+    color:  #2fb868;
 }
 
 .logo-img{
