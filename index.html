@@ -3,47 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/fonts.css">
-    <link rel="stylesheet"  href="./css/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css">
-    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="./css/widescreen.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/util.css">
     <title>BeanShip</title>
 </head>
-<body id="home">
-    <!-- navbar -->
-    <nav id="navbar">
-        <div class="logo">
-            <img class="logo-img" src="./img/logo/logo-2.svg" alt="logo">
-        <h1 class="logo-text">     
-            <span class="text-primary">
-            Bean</span>Ship
-        </h1>
-        </div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#what">What</a></li>
-            <li><a href="#who">Who</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <!-- Header: Showcase -->
-    <header id="showcase">
-        <div class="showcase-content">
-            <h1 class="l-heading">
-                Crafted to be the best.
-            </h1>
-            <p class="lead">
+<body>
+    <div class="container ">
+        <nav class="navbar">
+            <div class="nav-logo">
+                <img class="logo-img" src="./img/logo/logo-2.svg" alt="logo">
+                <h1 class="logo-text">     
+                    <span class="text-primary">
+                    Bean</span>Ship
+                </h1>
+            </div>
+            <ul class="nav-items">
+                <li class="nav-item"><a  href="#home">Home</a></li>
+                <li class="nav-item"><a  href="#what">What</a></li>
+                <li class="nav-item"><a  href="#who">Who</a></li>
+                <li class="nav-item"><a  href="#clients">Client</a></li>
+                <li class="nav-item"><a  href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <div class="home-content">
+                <h1 class="l-heading">Crafted to be the best.</h1>
+            <p>
                 We’ve been crafting the finest quality coffee for almost 50 years
             </p>
             <a href="#what" class="btn"> Read More</a>
-        </div>
-    </header>
-    <!-- Section: What We Do -->
-    <section id="what" class="bg-light py-1">
-        <div class="container">
+            </div> 
+        </section>
+        <!-- Section: What We Do -->
+        <section id="what" class="bg-light py-14">
             <h2 class="m-heading text-center"><span class="text-primary">What</span> We Do</h2>
             <div class="items">
-
                 <div class="item">
                     <img class="im" src="./img/icons/truck.svg" alt="">
                     <div>
@@ -72,78 +66,71 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Section: Who We Are -->
-    <section id="who">
-        <div class="who-img"></div>
-        <div class="who-text bg-dark p-2">
-            <h2 id="m-heading">
-                <span class="text-primary">Who</span> We Are
-            </h2>
-            <p>From our carefully roasted signature blend to our iconic Flat White and many other options. We are proud of our premium coffee offering. After the first sip, you’ll see why our beans makes the perfect cup, every time.</p>
-            <h3>Our team</h3>
-            <ul class="list">
-                <li>Mark Smith: CEO</li>
-                <li>Shanon Johnson: CFO</li>
-                <li>John Corbit: Lead shipping</li>
-                <li>Janet Wiliams: Investment manager</li>
-                <li>Kara Jackson: Senior Accountant</li>
-            </ul>
-        </div>
-    </section>
-    <!-- Section: Clients -->
-    <section id="clients" class="py-1">
-        <div class="container">
-            <h2 class="m-heading text-center">
+        </section>
+        <!-- Section: Who We Are -->
+        <section id="who">         
+            <div class="items  bg-dark">
+                <div class="item who-img">
+                </div>
+                <div id="who-text"class="item p-2 ">
+                    <h2 class="m-heading">
+                        <span class="text-primary">Who</span> We Are
+                    </h2>
+                    <p>From our carefully roasted signature blend to our iconic Flat White and many other options. We are proud of our premium coffee offering. After the first sip, you’ll see why our beans makes the perfect cup, every time.</p>
+                    <h3>Our team</h3>
+                    <ul class="list">
+                        <li>Mark Smith: CEO</li>
+                        <li>Shanon Johnson: CFO</li>
+                        <li>John Corbit: Lead shipping</li>
+                        <li>Janet Wiliams: Investment manager</li>
+                        <li>Kara Jackson: Senior Accountant</li>
+                    </ul>
+                </div>
+            </div> 
+        </section>
+        <!-- Section: Clients -->
+        <section id="clients">
+            <h2 class="m-heading text-center py-8">
                 <span class="text-primary">Our</span> 
-            Clients</h2>
-            <div class="items py-1">
-                <div><img src="./img//brands/coffe-2.png" alt="Client"></div>
-                <div><img src="./img//brands/coffee4.png" alt="Client"></div>
-                <div><img src="./img//brands/coffee2.jpg" alt="Client"></div>
-                <div><img src="./img//brands/coffe3.png" alt="Client"></div>
-                <div><img src="./img//brands/coffe5.png" alt="Client"></div>              
+            Clients</h2>         
+            <div class="items">
+                <div class="item"><img src="./img//brands/coffe-2.png" alt="Client"></div>
+                <div class="item"><img src="./img//brands/coffee4.png" alt="Client"></div>
+                <div class="item"><img src="./img//brands/coffee2.jpg" alt="Client"></div>
+                <div class="item"><img src="./img//brands/coffe3.png" alt="Client"></div>
+                <div class="item"><img src="./img//brands/coffe5.png" alt="Client"></div>              
             </div>
-        </div>
-    </section>
-
-    <!-- Section: Contact -->
-    <section id="contact">
-        <div class="contact-form bg-primary p-2">
-            <h2 class="m-heading">Contact Us</h2>
-            <p>Please Use The Form below to contact us</p>
-            <form action="">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="Enter Name">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Enter Email">
-                </div>
-                <div class="form-group">
-                    <label for="phone">Phone Number</label>
-                    <input type="text" id="phone" placeholder="Enter Phone">
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" placeholder="Enter Message"></textarea>
-                </div>
-                <input type="submit" value="Send" class="btn-dark">
-            </form>
-        </div>
-        <div class="map"></div>
-    </section>
-    <!-- Footer -->
-    <footer id="main-footer" class="bg-dark text-center py-1">
-        <div class="container">
-            <p>Coprights &copy; 2020 BeanShip, All Rights Reserved</p>
-        </div>
-    </footer>
+        </section>
+        <!-- SECTION: Contact -->
+        <section id="contact">
+            <div class="contact-form bg-primary p-2">
+                <h2 class="m-heading">Contact Us</h2>
+                <p>Please Use The Form below to contact us</p>
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" id="phone" placeholder="Enter Phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+                    </div>
+                    <input type="submit" value="Send" class="btn-dark">
+                </form>
+            </div>
+            <div class="map"></div>
+        </section>
+    </div>
     <script src="js/main.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAf2_El5-iwefZEGBZpRvJlYO7v4wj0ooQ&callback=initMap"
     async defer></script>
 </body>
 </html>
-<!-- AIzaSyAf2_El5-iwefZEGBZpRvJlYO7v4wj0ooQ -->
