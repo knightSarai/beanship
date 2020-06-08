@@ -7,6 +7,3 @@ function initMap(){
       const marker = new google.maps.Marker({ position:loc, map})
 }
 
-
-
-
