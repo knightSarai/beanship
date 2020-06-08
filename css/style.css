@@ -9,6 +9,7 @@ html{
 body {
     font-family: roboto-regular;
     line-height: 1.4;
+    background: #142224;
 }
 a{
     text-decoration: none;
@@ -39,6 +40,10 @@ p{
 }
 .bg-light{
     background: #d4e9e2;
+    color: #142224;
+}
+.bg-white{
+    background: #fff;
     color: #142224;
 }
 .bg-dark{
@@ -116,7 +121,7 @@ p{
     display: flex;
     position: sticky;
     top: 0;
-    background: #142224;
+    background: rgba(20, 34, 36, 0.9) ;;
     color: #fff;
     justify-content: space-between;
     z-index: 1;
@@ -134,8 +139,8 @@ p{
 }
 
 #navbar ul li a:hover{
-    background: #2fb868;
-    border-radius: 5px;
+    color: #2fb868;
+
 }
 /* Showcase*/
 #showcase {
